@@ -12,13 +12,13 @@ const App = () => {
         <Route path="/" element={
             <div>
                 <Link to="/form" id="form-link">Section 1</Link> <br />
-                <Link to="/formRef" id="form-ref-link">Section 2</Link> <br />
-                <Link to="/formState" id="form-state-link">Section 3</Link>
+                <Link to="/form-ref" id="form-ref-link">Section 2</Link> <br />
+                <Link to="/form-state" id="form-state-link">Section 3</Link>
             </div>
         } />
         <Route path="/form" element={<Form />}></Route>
-        <Route path="/formRef" element={<FormRef />}></Route>
-        <Route path="/formState" element={<FormState />}></Route>
+        <Route path="/form-ref" element={<FormRef />}></Route>
+        <Route path="/form-state" element={<FormState />}></Route>
       </Routes>
     </BrowserRouter>
   );
